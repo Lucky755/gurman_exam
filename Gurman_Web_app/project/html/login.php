@@ -37,7 +37,7 @@ if (isset($_COOKIE['User'])) {
     header("Location: profile.php");
 }
 
-$link = mysqli_connect('db', 'root', 'kali', 'exam');
+$link = mysqli_connect('db', 'root', 'eve@123', 'exam');
 
 
 if (isset($_POST['submit'])) {
