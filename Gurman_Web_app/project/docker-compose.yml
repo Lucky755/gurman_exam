@@ -9,9 +9,9 @@ services:
     environment:
       - DATABASE_HOST=db
       - DATABASE_PORT=3306
-      - DATABASE_NAME=first
+      - DATABASE_NAME=exam
       - DATABASE_USER=root
-      - DATABASE_PASSWORD=kali
+      - DATABASE_PASSWORD=eve@123
 #    volumes:
 #      - ./html:/var/www/html
 #      - db_data:/var/lib/mysql
@@ -23,10 +23,10 @@ services:
   db:
     image: mariadb
     environment:
-      MYSQL_DATABASE: first
-      MYSQL_USER: kali
-      MYSQL_PASSWORD: kali
-      MYSQL_ROOT_PASSWORD: kali
+      MYSQL_DATABASE: exam
+      MYSQL_USER: user
+      MYSQL_PASSWORD: eve@123
+      MYSQL_ROOT_PASSWORD: eve@123
     volumes:
       - db_data:/var/lib/mysql
     networks:
