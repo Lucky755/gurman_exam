@@ -1,0 +1,80 @@
+body {
+    background-color: #08161e;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+.my_photo {
+    background: url("photo1.jpg") no-repeat center center;
+    background-size: 100%;
+    width: 222px;
+    height: 479px;
+    border-radius: 20px;
+    margin-left: 93px;
+}
+
+.nav_logo {
+    background: url("photo2.jpg") no-repeat center center;
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.nav_bar {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav_text {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.title_photo {
+    text-align: center;
+}
+
+.button_js {
+    text-align: center;
+}
+
+#myButton {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #d07a09;
+    color: #fff;
+    font-weight: bold;
+}
+
+#demo img {
+    margin-top: 20px;
+    width: 25%;
+}
+
+.btn_red {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #a30f0f;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form__reg {
+    margin: auto;
+    padding-top: 10px; 
+}
+
+.hello {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
