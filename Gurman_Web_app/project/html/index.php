@@ -23,7 +23,7 @@
                 <?php
                 } else {
                     // подключение к БД
-                    $link = mysqli_connect('db', 'root', 'kali', 'exam');
+                    $link = mysqli_connect('db', 'root', 'eve@123', 'exam');
 		    if (isset($_COOKIE['User'])) {
  		   	 // Перенаправляем на страницу профиля
    			 header("Location: profile.php");
