@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect('db', 'root', 'kali');
+$link = mysqli_connect('db', 'root', 'eve@123');
 if (!$link) {
 	die('Error:' . mysqli_error());
 }
