@@ -29,5 +29,5 @@
 
 require_once('db.php');
 
-$link = mysqli_connect('db', 'root', 'kali', 'exam');
+$link = mysqli_connect('db', 'root', 'eve@123', 'exam');
 ?>
