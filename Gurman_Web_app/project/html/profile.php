@@ -15,6 +15,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+		<?php
+		if (!isset($_COOKIE['User'])) {
+			header("Location: registration.php");
+		}
+		?>
                 <h1 class="hello">
                     Привет, <?php echo $_COOKIE ['User']; ?>!
                 </h1>
